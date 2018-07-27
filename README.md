@@ -5,7 +5,10 @@ Reverse proxy works like a Gateway Service in Service Fabric as per the document
 https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-reverseproxy
 
 Pre-Requisites:
-https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-get-started
+- https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-get-started
+- Install .net Core 2.1 or Later
+- Run Visual Studio in Local Administrator Mode for Servie Fabric Deployment
+
 Note: 
  - If you are using windows 10 or above, please perform latest windows updates or latest version of windows. Ensure Service Fabric SDK is latest installed.
  - Ensure Service Fabric Cluster is Running in local - http://localhost:19080/Explorer/index.html
@@ -13,7 +16,7 @@ Note:
 
 I have added two folders
 1. Service Fabric with one sample Web1 Service. you can test the service as explained below Test1
-2. Service Fabric App Layer accessed from the above deployed Reverse Proxy Gateway
+2. Service Fabric App Layer accessed from the above deployed Reverse Proxy Gateway. With .Net Core API
 Service Fabric Reverse Proxy - Gateway
 
 Usage:
@@ -31,3 +34,6 @@ Note: <ServiceInstanceName> and <Suffix path> are case sensitive
 
 Services responding with a 404 (not found) should include the following HTTP response header:
 	X-ServiceFabric : ResourceNotFound
+
+Deployment of Service Using Powershell to Service Fabric cluster:
+https://docs.microsoft.com/en-us/azure/service-fabric/scripts/service-fabric-powershell-deploy-application
