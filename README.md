@@ -7,6 +7,7 @@ https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-reverseprox
 Pre-Requisites:
 - https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-get-started
 - Install .net Core 2.1 or Later
+- Install .net 4.6 or later
 - Run Visual Studio in Local Administrator Mode for Servie Fabric Deployment
 
 Note: 
