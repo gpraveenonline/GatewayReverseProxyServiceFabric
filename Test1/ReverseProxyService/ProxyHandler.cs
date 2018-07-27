@@ -122,7 +122,7 @@ namespace ReverseProxyService
 			var message = new HttpResponseMessage(HttpStatusCode.OK);
 			message.Content = new StringContent(
 @"Service Fabric Reverse Proxy - Gateway
-Test: http://praveen-g.inatech.com:8080/ReverseProxy/ReverseProxyService/ReverseProxy/Web1/api/values
+Test: http://localhost:8080/ReverseProxy/ReverseProxyService/ReverseProxy/Web1/api/values
 
 Usage:
 	http(s)://<Cluster FQDN | internal IP>:Port/<ServiceInstanceName>/<Suffix path>?PartitionKey=<key>&PartitionKind=<partitionkind>&Timeout=<timeout_in_seconds>

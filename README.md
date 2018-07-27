@@ -20,7 +20,7 @@ I have added two folders
 Service Fabric Reverse Proxy - Gateway
 
 Usage:
-	http(s)://<Cluster FQDN | internal IP>:Port/<ServiceInstanceName>/<Suffix path>?PartitionKey=<key>&PartitionKind=<partitionkind>&Timeout=<timeout_in_seconds>
+	http(s)://<Cluster FQDN | internal IP>:Port/< ServiceInstanceName >/< Suffix path >?PartitionKey=<key>&PartitionKind=<partitionkind>&Timeout=<timeout_in_seconds>
 
 Test1: 
   http://localhost:8080/ReverseProxy/ReverseProxyService/ReverseProxy/Web1/api/values
