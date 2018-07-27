@@ -37,3 +37,7 @@ Services responding with a 404 (not found) should include the following HTTP res
 
 Deployment of Service Using Powershell to Service Fabric cluster:
 https://docs.microsoft.com/en-us/azure/service-fabric/scripts/service-fabric-powershell-deploy-application
+
+Using HTTPS for Asp.net Core for Service Fabric Kestrel:
+https://dzimchuk.net/setting-up-https-endpoints-in-asp-net-core-services-in-service-fabric/
+
