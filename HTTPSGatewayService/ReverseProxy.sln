@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ReverseProxy", "ReverseProxy\ReverseProxy.sfproj", "{FC01BB1F-5C30-43A2-B633-9BF32FB9E8BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseProxyService", "ReverseProxyService\ReverseProxyService.csproj", "{AD89F7F6-7FF4-4104-80AA-924C0E0C8E19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpResponseErrorHandler", "HttpResponseErrorHandler\HttpResponseErrorHandler.csproj", "{94CBCA8A-BF6F-4108-BD23-C9A80E5DD0A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC01BB1F-5C30-43A2-B633-9BF32FB9E8BA}.Debug|x64.ActiveCfg = Debug|x64
+		{FC01BB1F-5C30-43A2-B633-9BF32FB9E8BA}.Debug|x64.Build.0 = Debug|x64
+		{FC01BB1F-5C30-43A2-B633-9BF32FB9E8BA}.Debug|x64.Deploy.0 = Debug|x64
+		{FC01BB1F-5C30-43A2-B633-9BF32FB9E8BA}.Release|x64.ActiveCfg = Release|x64
+		{FC01BB1F-5C30-43A2-B633-9BF32FB9E8BA}.Release|x64.Build.0 = Release|x64
+		{FC01BB1F-5C30-43A2-B633-9BF32FB9E8BA}.Release|x64.Deploy.0 = Release|x64
+		{AD89F7F6-7FF4-4104-80AA-924C0E0C8E19}.Debug|x64.ActiveCfg = Debug|x64
+		{AD89F7F6-7FF4-4104-80AA-924C0E0C8E19}.Debug|x64.Build.0 = Debug|x64
+		{AD89F7F6-7FF4-4104-80AA-924C0E0C8E19}.Release|x64.ActiveCfg = Release|x64
+		{AD89F7F6-7FF4-4104-80AA-924C0E0C8E19}.Release|x64.Build.0 = Release|x64
+		{94CBCA8A-BF6F-4108-BD23-C9A80E5DD0A0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{94CBCA8A-BF6F-4108-BD23-C9A80E5DD0A0}.Debug|x64.Build.0 = Debug|Any CPU
+		{94CBCA8A-BF6F-4108-BD23-C9A80E5DD0A0}.Release|x64.ActiveCfg = Release|Any CPU
+		{94CBCA8A-BF6F-4108-BD23-C9A80E5DD0A0}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E476140-FE22-4B17-BD51-F0D371542227}
+	EndGlobalSection
+EndGlobal
