@@ -46,3 +46,4 @@ Test HTTPS Gateway Service:
 1. Create a Local Certificate or Upload a Certificate
 2. Update thumbprint in the HTTPSGatewayService\ReverseProxy\ApplicationPackageRoot. Certificates.
 
+<img src="https://github.com/gpraveenonline/GatewayReverseProxyServiceFabric/blob/master/ReverseProxy.png"/>
