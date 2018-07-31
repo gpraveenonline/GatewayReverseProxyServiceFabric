@@ -1,4 +1,4 @@
-# Gateway Service using Reverse Proxy with Service Fabric - http/https
+# Gateway Service using Reverse Proxy with Service Fabric Microservices - http/https
 Gateway Service with Reverse Proxy using Service Fabric - Samples 
 
 Reverse proxy works like a Gateway Service in Service Fabric as per the documentation below
